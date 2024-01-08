@@ -24,7 +24,7 @@ const DefaultLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="content-max-width my-4">{children}</div>
       </div>
       <div className="w-full border-t py-4 mt-auto flex justify-center">
-        <div className="content-max-width flex">
+        <div className="content-max-width flex justify-between items-center">
           <div className="">
             <Link
               href="/"
@@ -33,7 +33,8 @@ const DefaultLayout = ({ children }: { children: React.ReactNode }) => {
               fsmvu
             </Link>
           </div>
-          <div className="ml-auto">
+          <div className="text-xs">v0.0.1</div>
+          <div className="">
             <Link
               href="https://github.com/bedirhanyildirim/fsmvu.com"
               className="hover:text-gray-700 transition-colors"
