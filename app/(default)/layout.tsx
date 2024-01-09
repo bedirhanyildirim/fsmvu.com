@@ -33,7 +33,7 @@ const DefaultLayout = ({ children }: { children: React.ReactNode }) => {
               fsmvu
             </Link>
           </div>
-          <div className="text-xs">v0.0.1</div>
+          <div className="text-xs">v0.0.2</div>
           <div className="">
             <Link
               href="https://github.com/bedirhanyildirim/fsmvu.com"
