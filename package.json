@@ -1,6 +1,17 @@
 {
   "name": "fsmvu.com",
-  "version": "0.1.0",
+  "version": "0.0.3",
+  "contributors": [
+    {
+      "name": "Bedirhan Yildirim",
+      "email": "bedcodes@gmail.com",
+      "url": "https://bedirhan.design/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bedirhanyildirim/fsmvu.com.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
