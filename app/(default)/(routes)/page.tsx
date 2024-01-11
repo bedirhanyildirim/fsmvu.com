@@ -1,5 +1,6 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Terminal } from "lucide-react";
+import Popup from "@/components/theme/popup";
 
 export default function Home() {
   return (
@@ -12,6 +13,18 @@ export default function Home() {
           ihtiyaçları göz önüne alınarak geliştirilmektedir.
         </AlertDescription>
       </Alert>
+      {process.env.NODE_ENV === "production" && (
+        <Popup
+          title="Geliştirme Süreci Devam Ediyor"
+          description="
+          Geliştirme sürecimiz hala devam etmekte olduğundan 
+          dolayı uygulamamız şu an aktif değil. 
+          Testlerimiz titizlikle devam ediyor ve en kısa 
+          sürede sizi daha iyi hizmetle buluşturmak için çabalarımız sürüyor. 
+          Gösterdiğiniz sabır ve ilgi için teşekkür ederiz."
+          defaultOpen
+        />
+      )}
     </div>
   );
 }
