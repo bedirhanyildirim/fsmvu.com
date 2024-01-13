@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import ThemeLogo from "@/components/theme/logo";
 
 const PageSignIn = () => {
   return (
@@ -17,7 +18,7 @@ const PageSignIn = () => {
       <Card className="w-full max-w-md px-4 py-8">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
-            Giriş Yap
+            <ThemeLogo />
           </CardTitle>
           <CardDescription className="text-center">
             Şimdi hesabına erişim sağla
